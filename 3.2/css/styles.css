@@ -1,0 +1,115 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/*Estrutura*/
+
+body {
+  text-align: center;
+  background-color: #faf9f6;
+}
+
+main {
+  margin: 0 auto;
+  width: 60%;
+  text-align: left;
+}
+
+aside {
+  width: 40%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+
+
+/*Texto*/
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../fontes/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: KR;
+  src: url(../fontes/Noto-sans-KR/NotoSansKR-VariableFont_wght.ttf);
+}
+
+
+*{
+  font-family:"Montserrat", Georgia, Times, "Times New Roman", serif;
+}
+
+
+
+h2 {
+  margin-top: 20px;
+  color: palevioletred;
+  text-shadow: 1px 1px 1px;
+}
+
+h3,
+h4 {
+  color: #fcc89b;
+}
+h5 {
+  text-align: center;
+}
+
+#list {
+  line-height: 22px;
+}
+
+#kr-text { 
+  font-family: KR;
+}
+
+
+
+/*Tabelas*/
+
+.table1,
+.table1 th,
+td {
+  border: 2px solid palevioletred;
+  border-collapse: collapse;
+  padding: 8px;
+  text-align: center;
+}
+
+.table1 th {
+  background-color: #fcc89b;
+}
+.table1 td {
+  background-color: #faf9f6;
+}
+
+.table-nav {
+  background-color: #faf9f6;
+}
+
+/*Links*/
+
+a:link {
+  color: #fcb07e;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #fcb07e;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: palevioletred;
+  background-color: transparent;
+}

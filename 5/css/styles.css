@@ -1,0 +1,122 @@
+
+body{
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden; /* Hide scrollbars */
+}
+
+/*--FONTS--------------------------------------------------*/
+@font-face {
+  font-family: Montserrat;
+  src: url(../fontes/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+*{
+  font-family:"Montserrat", Georgia, Times, "Times New Roman", serif;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 40px;
+  text-align: left;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+h1{
+ display: block;
+  font-size: 200;
+  font-weight: 900;
+  color: white;
+  opacity: 60%;
+  margin: 20px;
+  text-shadow: 1px 1px 1px;
+}
+
+h2{
+  display: block;
+  font-size: 50;
+  font-weight: 600;
+  color: white;
+  opacity: 60%;
+  margin: 20px;
+}
+
+h3{
+  display: block;
+  width: 100%;
+
+font-weight:bolder;
+}
+
+p{
+  display: block;
+  font-size: 1em;
+}
+
+a:link {
+  color: rgb(188, 122, 250);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(235, 86, 225);
+  background-color: transparent;
+}
+
+a:visited {
+  color: rgb(188, 122, 250);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+@media (max-width: 1000px) {
+
+  .row{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-gap: 40px;
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  h1{
+  font-size: 60;
+  font-weight: 900;
+  color: white;
+  opacity: 60%; 
+  margin: 20px;
+  text-shadow: 1px 1px 1px;
+  }
+
+  h2{
+    font-size: 20;
+    font-weight: 600;
+    color: white;
+    opacity: 60%;
+    margin: 20px;
+  }
+
+h3{
+  display: block;
+  width: 100%;
+color: rgb(188, 122, 250);
+font-weight:bolder;
+font-size: 16px;
+}
+
+p{
+  display: block;
+  font-size: 14px;
+}
+
+}
